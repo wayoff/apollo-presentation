@@ -1,0 +1,77 @@
+.step ul {
+    font-size: 0.5em;
+    margin-left: 40px;
+}
+
+.big {
+    font-size: 3em;
+}
+
+.little {
+    font-size: 0.3em !important;
+}
+
+.image {
+    display: block;
+    width: 12em;
+}
+
+.logo {
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 20px 50px;
+}
+
+.smallParagraph {
+    font-size: 0.5em;
+}
+
+.presentation {
+
+}
+.presentation h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+.presentation h4 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.presentation p {
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.indent{
+    margin-left: 40px;
+}
+
+#Bottom__Bar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 50px;
+    z-index: 100000;
+    pointer-events: auto;
+}
+
+.Button {
+    z-index: 100000;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    padding: 10px 30px;
+    border-bottom: 5px solid black
+}
+.Button:active {
+    margin-bottom: 5px;
+}
+
+.Button__Skip {
+    float: right;
+}
